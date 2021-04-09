@@ -78,7 +78,7 @@
 }
 
 .lds-roller {
-  display: inline-block;
+  display: block;
   width: 30%;
   height: 80px;
   margin: auto;
@@ -475,6 +475,11 @@ footer a {
 /*footer */
 /*Desktop*/
 @media (min-width: 1281px) {
+  .lds-roller {
+    display: flex;
+    justify-content: center;
+  }
+
   .submenu {
     display: flex;
   }

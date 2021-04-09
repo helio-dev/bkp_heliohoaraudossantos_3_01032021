@@ -1077,6 +1077,7 @@ footer a {
   white-space: nowrap;
 }
 .menuitem .menuitem__title {
+  font-size: medium;
   margin-top: 0px;
   font-weight: 600;
   margin-bottom: 7px;

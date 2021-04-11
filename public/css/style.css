@@ -351,9 +351,11 @@ body {
 
 .nouveau {
   position: absolute;
-  background-color: green;
-  color: red;
+  background-color: #99E2D0;
+  color: #1c987a;
+  font-size: large;
   padding: 1px;
+  right: 10%;
 }
 
 .restaurantslist__contenair {

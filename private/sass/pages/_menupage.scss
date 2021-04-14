@@ -72,14 +72,13 @@
 		border-radius: 40px;
 		box-shadow: 2px 3px 4px 1px #bfb8b8;
 		border: none;
-		transition: opacity 0.4s; box-shadow: 1s;
+		transition: opacity 0.4s, box-shadow 1s;
     padding: 0% 16% 0% 15%;
     margin: 9% 0% 22% 17%;
     width: 60%;
     &:hover {
         opacity: 80%;
         box-shadow:3px 4px 5px 4px #bdb8b86b;
-        box-sizing: none;
         }
         &:focus{
             border: none;
@@ -273,7 +272,7 @@
         .menu__main{
             margin-left: 23px;
             text-align: center;
-            text-decoration: underline fontsandcolors.$tertiaire 2px;
+            text-decoration: underline fontsandcolors.$tertiaire ;
         }
         .cover{
             max-height: 35rem;

@@ -190,11 +190,10 @@ main{
 		border-radius: 40px;
 		box-shadow: 2px 3px 4px 1px #bfb8b8;
 		border: none;
-		transition: opacity 0.4s; box-shadow: 1s;
+		transition: opacity 0.4s, box-shadow 1s;
 			&:hover {
 			opacity: 80%;
 			box-shadow:3px 4px 5px 4px #bdb8b86b;
-			box-sizing: none;
 			}
 			&:focus{
 				border: none;
@@ -263,7 +262,7 @@ main{
 			border-radius:50px;
 			width: 10px;			
 			padding: 5px 7px 5px 8px;
-			margin-inline-start: 20px;
+			margin:13px;
 			background-color: fontsandcolors.$primaire;
 			color: white;
 			font-size: small;

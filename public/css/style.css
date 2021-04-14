@@ -20,7 +20,6 @@
 .fa-arrow-left {
   display: flex;
   position: absolute;
-  top: Opx;
   left: 2rem;
   align-items: center;
   color: black;
@@ -229,13 +228,11 @@ body {
   border-radius: 40px;
   box-shadow: 2px 3px 4px 1px #bfb8b8;
   border: none;
-  transition: opacity 0.4s;
-  box-shadow: 1s;
+  transition: opacity 0.4s, box-shadow 1s;
 }
 .info__button:hover {
   opacity: 80%;
   box-shadow: 3px 4px 5px 4px #bdb8b86b;
-  box-sizing: none;
 }
 .info__button:focus {
   border: none;
@@ -308,7 +305,7 @@ body {
   border-radius: 50px;
   width: 10px;
   padding: 5px 7px 5px 8px;
-  margin-inline-start: 20px;
+  margin: 13px;
   background-color: #9356DC;
   color: white;
   font-size: small;
@@ -573,8 +570,7 @@ footer a {
   border-radius: 40px;
   box-shadow: 2px 3px 4px 1px #bfb8b8;
   border: none;
-  transition: opacity 0.4s;
-  box-shadow: 1s;
+  transition: opacity 0.4s, box-shadow 1s;
   padding: 0% 16% 0% 15%;
   margin: 9% 0% 22% 17%;
   width: 60%;
@@ -582,7 +578,6 @@ footer a {
 .menu__button:hover {
   opacity: 80%;
   box-shadow: 3px 4px 5px 4px #bdb8b86b;
-  box-sizing: none;
 }
 .menu__button:focus {
   border: none;
@@ -757,7 +752,7 @@ footer a {
   .menu__main {
     margin-left: 23px;
     text-align: center;
-    text-decoration: underline #99E2D0 2px;
+    text-decoration: underline #99E2D0;
   }
 
   .cover {
